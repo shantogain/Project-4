@@ -7,19 +7,22 @@ body{
 /*!----------------REUSABLE CSS------------------- */
 .button{
     border: 2px solid white;
-    border-radius: 20px;
+    border-radius: 30px;
     text-decoration: none;
-    font-size: ;
-    padding: 10px 20px;
+    font-size: 20px;
+    padding: 8px 25px;
+    color: white;
     
 
 }
 
 .button:hover{
-    text-decoration: none;     
+    text-decoration: none;
+    color: white;    
 }
 .button-custom:hover{
-    background-color: #2dc997
+    background-color: #2dc997;
+    transition: 0.3s;
 
 }
 
@@ -27,8 +30,6 @@ body{
 
 
 /*!----------------REUSABLE CSS------------------- */
-
-
 .main-header{
     background-image: url(/elements/img/header-bg.jpg);
     background-size: cover;
@@ -52,6 +53,16 @@ body{
 .para{
     font-size: 24px;
 }
-.about-section__inner-container{
-    
+.section-about__item-container{
+    color: black;
+    font-size: 18px;
+}
+
+.call-to-action{
+    background: url(/elements/img/call-to-action-bg.jpg);
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    height: 30vh;   
 }
