@@ -33,17 +33,16 @@ body{
     background-image: url(/elements/img/header-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center center;
-    height: 100vh;
-    background-color: #666666;
+    height: 100vh;   
 }
-.main-heading__inner-container{
+.main-header__inner-container{
     height: 100vh;
-    position: relative;
+    
     
 }
-.main-heading__text-container{
+.main-header__text-container{
     position: absolute;
 }
 .text-white{
@@ -52,4 +51,7 @@ body{
 }
 .para{
     font-size: 24px;
+}
+.about-section__inner-container{
+    
 }
