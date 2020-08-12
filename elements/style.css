@@ -8,21 +8,48 @@ body{
 .button{
     border: 2px solid white;
     border-radius: 20px;
+    text-decoration: none;
+    font-size: ;
+    padding: 10px 20px;
+    
 
 }
+
+.button:hover{
+    text-decoration: none;     
+}
+.button-custom:hover{
+    background-color: #2dc997
+
+}
+
+
 
 
 /*!----------------REUSABLE CSS------------------- */
 
 
 .main-header{
-    background-image:url(/elements/imgs/);
+    background-image: url(/elements/img/header-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
     height: 100vh;
+    background-color: #666666;
 }
-.head-section__inner-container{
+.main-heading__inner-container{
     height: 100vh;
+    position: relative;
+    
+}
+.main-heading__text-container{
+    position: absolute;
+}
+.text-white{
+    font-weight: 700;
+    font-size: 50px;
+}
+.para{
+    font-size: 24px;
 }
